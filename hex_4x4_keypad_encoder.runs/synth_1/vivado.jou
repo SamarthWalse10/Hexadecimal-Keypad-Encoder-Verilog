@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Oct  8 22:51:26 2023
+# Process ID: 7932
+# Current directory: D:/samarth_personal/programming/Verilog/hex_4x4_keypad_encoder/hex_4x4_keypad_encoder.runs/synth_1
+# Command line: vivado.exe -log hex_4x4_keypad_encoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hex_4x4_keypad_encoder.tcl
+# Log file: D:/samarth_personal/programming/Verilog/hex_4x4_keypad_encoder/hex_4x4_keypad_encoder.runs/synth_1/hex_4x4_keypad_encoder.vds
+# Journal file: D:/samarth_personal/programming/Verilog/hex_4x4_keypad_encoder/hex_4x4_keypad_encoder.runs/synth_1\vivado.jou
+# Running On: Samarth, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16936 MB
+#-----------------------------------------------------------
+source hex_4x4_keypad_encoder.tcl -notrace
