@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Sun Oct  8 22:57:17 2023
+| Date         : Sun Oct  8 23:21:41 2023
 | Host         : Samarth running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file hex_4x4_keypad_encoder_clock_utilization_routed.rpt
 | Design       : hex_4x4_keypad_encoder

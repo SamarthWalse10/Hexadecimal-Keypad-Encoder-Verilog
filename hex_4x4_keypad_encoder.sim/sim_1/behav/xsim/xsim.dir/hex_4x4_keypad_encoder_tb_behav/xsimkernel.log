@@ -1,7 +1,7 @@
-Running: xsim.dir/hex_4x4_keypad_encoder_tb_behav/xsimk.exe -simmode gui -wdb hex_4x4_keypad_encoder_tb_behav.wdb -simrunnum 0 -socket 54920
+Running: xsim.dir/hex_4x4_keypad_encoder_tb_behav/xsimk.exe -simmode gui -wdb hex_4x4_keypad_encoder_tb_behav.wdb -simrunnum 0 -socket 59381
 Design successfully loaded
-Design Loading Memory Usage: 7804 KB (Peak: 7804 KB)
+Design Loading Memory Usage: 7796 KB (Peak: 7796 KB)
 Design Loading CPU Usage: 0 ms
 Simulation completed
-Simulation Memory Usage: 8420 KB (Peak: 8420 KB)
-Simulation CPU Usage: 0 ms
+Simulation Memory Usage: 8404 KB (Peak: 8404 KB)
+Simulation CPU Usage: 15 ms
