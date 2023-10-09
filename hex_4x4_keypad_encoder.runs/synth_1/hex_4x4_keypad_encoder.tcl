@@ -71,11 +71,11 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param synth.incrementalSynthesisCache {C:/Users/Samarth Walse/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20584-Samarth/incrSyn}
+set_param synth.incrementalSynthesisCache {C:/Users/Samarth Walse/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-20984-Samarth/incrSyn}
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7z020clg400-1
+create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -107,7 +107,7 @@ read_checkpoint -auto_incremental -incremental D:/samarth_personal/programming/V
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top hex_4x4_keypad_encoder -part xc7z020clg400-1
+synth_design -top hex_4x4_keypad_encoder -part xc7z010clg400-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

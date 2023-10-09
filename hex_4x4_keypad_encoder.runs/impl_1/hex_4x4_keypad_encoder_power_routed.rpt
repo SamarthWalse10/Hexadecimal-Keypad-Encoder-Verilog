@@ -1,11 +1,11 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Sun Oct  8 23:21:41 2023
+| Date             : Mon Oct  9 14:06:04 2023
 | Host             : Samarth running 64-bit major release  (build 9200)
 | Command          : report_power -file hex_4x4_keypad_encoder_power_routed.rpt -pb hex_4x4_keypad_encoder_power_summary_routed.pb -rpx hex_4x4_keypad_encoder_power_routed.rpx
 | Design           : hex_4x4_keypad_encoder
-| Device           : xc7z020clg400-1
+| Device           : xc7z010clg400-1
 | Design State     : routed
 | Grade            : commercial
 | Process          : typical
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.103        |
+| Total On-Chip Power (W)  | 0.090        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.000        |
-| Device Static (W)        | 0.103        |
+| Device Static (W)        | 0.090        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 83.8         |
-| Junction Temperature (C) | 26.2         |
+| Max Ambient (C)          | 84.0         |
+| Junction Temperature (C) | 26.0         |
 | Confidence Level         | High         |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -54,9 +54,9 @@ Table of Contents
 +--------------+-----------+----------+-----------+-----------------+
 | Slice Logic  |     0.000 |        2 |       --- |             --- |
 |   Others     |     0.000 |        2 |       --- |             --- |
-| I/O          |     0.000 |        8 |       125 |            6.40 |
-| Static Power |     0.103 |          |           |                 |
-| Total        |     0.103 |          |           |                 |
+| I/O          |     0.000 |        8 |       100 |            8.00 |
+| Static Power |     0.090 |          |           |                 |
+| Total        |     0.090 |          |           |                 |
 +--------------+-----------+----------+-----------+-----------------+
 
 
@@ -66,8 +66,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.007 |       0.000 |      0.007 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.004 |       0.000 |      0.004 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.005 |       0.000 |      0.005 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
