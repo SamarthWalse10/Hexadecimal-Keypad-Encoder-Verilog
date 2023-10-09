@@ -31,6 +31,8 @@ The src directory contains the Verilog source code for the hexadecimal keypad en
 <br/><br/><br/>
 ![image](https://github.com/SamarthWalse10/Hexadecimal-Keypad-Encoder-Verilog/assets/125689593/e3d4afff-e42a-4c03-b964-7e78a65200df)
 <br/><br/><br/>
+![image](https://github.com/SamarthWalse10/Hexadecimal-Keypad-Encoder-Verilog/assets/125689593/8a563b99-8f8d-4c21-99d8-664f7e3c939d)
+<br/><br/><br/>
 ![image](https://github.com/SamarthWalse10/Hexadecimal-Keypad-Encoder-Verilog/assets/125689593/ca69b196-db30-4bd6-8d4d-3588915e3236)
 <br/><br/><br/>
-![image](https://github.com/SamarthWalse10/Hexadecimal-Keypad-Encoder-Verilog/assets/125689593/8a563b99-8f8d-4c21-99d8-664f7e3c939d)
+![image](https://github.com/SamarthWalse10/Hexadecimal-Keypad-Encoder-Verilog/assets/125689593/4745abbf-a1ae-4648-9a87-aa55103227d2)
